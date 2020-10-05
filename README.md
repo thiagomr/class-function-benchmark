@@ -26,9 +26,9 @@ ab -n 10000 -c 100 http://localhost:8000/class/inheritance
 ab -n 10000 -c 100 http://localhost:8000/function/inheritance
 ```
 
-Test | Class Instance | Function Instance | Class Inheritance | Function Inheritance
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-request min / ms | 18 | 18,5 | 19,25 | 19 |
-request max / ms | 74 | 73,75 | 68,75 | 68,5 |
-request per second | 5057 | 4974 | 4905 | 4999,25 |
-total time / s | 2003 | 2046,75 | 2061,75 | 2026,25 |
+|Test | Class Instance | Function Instance | Class Inheritance | Function Inheritance|
+|--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---|
+|request min / ms | 18 | 18,5 | 19,25 | 19 ||
+|request max / ms | 74 | 73,75 | 68,75 | 68,5 |
+|request per second | 5057 | 4974 | 4905 | 4999,25 |
+|total time / s | 2003 | 2046,75 | 2061,75 | 2026,25 |
